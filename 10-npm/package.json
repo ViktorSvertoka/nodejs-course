@@ -1,0 +1,23 @@
+{
+    "name": "npm-first-project",
+    "version": "1.0.0",
+    "description": "My first NPM project",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "jest"
+    },
+    "keywords": [
+        "npm"
+    ],
+    "author": "Bogdan",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "jest": "^29.4.3",
+        "nodemon": "^2.0.21"
+    }
+}
